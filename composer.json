@@ -7,7 +7,8 @@
         "php": ">=7.1.0",
         "bear/package": "^1.9",
         "josegonzalez/dotenv": "^3.2",
-        "kin29/ticket-hunter": "^1.0"
+        "kin29/ticket-hunter": "^1.0",
+        "bear/aura-router-module": "^2.0"
     },
     "require-dev": {
         "bear/qatools": "^1.9",
