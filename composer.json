@@ -12,7 +12,8 @@
     },
     "require-dev": {
         "bear/qatools": "^1.9",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "bear/api-doc": "^0.4.0"
     },
     "autoload": {
         "psr-4": {
@@ -51,7 +52,8 @@
         ],
         "serve": "php -dzend_extension=xdebug.so -S 127.0.0.1:8080 -t public",
         "app": "php bin/app.php",
-        "page": "php bin/page.php"
+        "page": "php bin/page.php",
+        "doc": "bear.apidoc 'Kin29\\TicketHunter' ./ docs"
     },
     "scripts-descriptions": {
         "setup": "Setup the project",
